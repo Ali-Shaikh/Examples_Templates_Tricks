@@ -1,3 +1,5 @@
+<?php require('Header.php') ?>
+
 <script language="javascript" type="text/javascript">
     function windowClose() {
         window.open('','_parent','');
@@ -10,3 +12,5 @@ echo '<p align="center"><a href="#" onclick="window.close()">Close Window</a></p
 ?>
 
 <input type="button" value="Close this window" onclick="self.close()">
+
+<?php require('Footer.php') ?>
